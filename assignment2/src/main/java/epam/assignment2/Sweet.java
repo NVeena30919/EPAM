@@ -13,13 +13,13 @@ public class Sweet extends Gift
 	}
 	public int num_of_candy(int low,int high,int[] sweets,int c)
 	{
-		int cou=0;
+		int count=0;
 		for(int i=0;i<c;i++)
 		{
 			if(sweets[i]>=low && sweets[i]<=high)
-				cou++;
+				count++;
 		}
-		return cou;
+		return count;
 	}
 
 }
